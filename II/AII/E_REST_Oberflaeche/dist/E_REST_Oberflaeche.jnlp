@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="E_REST_Oberflaeche.jnlp">
+  <information>
+    <title>E_REST_Oberflaeche</title>
+    <vendor>jerem</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="E_REST_Oberflaeche.jar" size="9431" download="eager" />
+    <jar href="lib\org.json-20120521.jar" size="40375" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="E_REST_Oberflaeche" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="grafik.Oberflaeche"  name="E_REST_Oberflaeche" />
+  <update check="always"/>
+</jnlp>

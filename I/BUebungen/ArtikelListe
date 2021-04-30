@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_221" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="aUebung.model.Artikel">
+    <void property="artikelbezeichnung">
+     <string>A4</string>
+    </void>
+    <void property="hersteller">
+     <string>Audi</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="aUebung.model.Artikel">
+    <void property="artikelbezeichnung">
+     <string>Luxury 7</string>
+    </void>
+    <void property="hersteller">
+     <string>BMW</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="aUebung.model.Artikel">
+    <void property="artikelbezeichnung">
+     <string>WasWeissIch</string>
+    </void>
+    <void property="hersteller">
+     <string>BMW</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="aUebung.model.Artikel">
+    <void property="artikelbezeichnung">
+     <string>R7</string>
+    </void>
+    <void property="hersteller">
+     <string>Audi</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="aUebung.model.Artikel">
+    <void property="artikelbezeichnung">
+     <string>Kombi</string>
+    </void>
+    <void property="hersteller">
+     <string>VW</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="aUebung.model.Artikel">
+    <void property="artikelbezeichnung">
+     <string>Golf</string>
+    </void>
+    <void property="hersteller">
+     <string>VW</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="438.0" prefWidth="641.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="cAufgabe.FXMLController">
+   <children>
+      <TableView fx:id="tableView" layoutX="40.0" layoutY="39.0" prefHeight="200.0" prefWidth="150.0">
+        <columns>
+          <TableColumn fx:id="tcnummer" prefWidth="75.0" text="Nummer" />
+          <TableColumn fx:id="tcTemperatur" prefWidth="75.0" text="Temperatur" />
+        </columns>
+      </TableView>
+      <LineChart fx:id="chart" layoutX="278.0" layoutY="35.0" prefHeight="208.0" prefWidth="314.0">
+        <xAxis>
+          <NumberAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <TextField fx:id="tfNummer" layoutX="40.0" layoutY="278.0" prefHeight="25.0" prefWidth="116.0" />
+      <TextField fx:id="tfTemperatur" layoutX="172.0" layoutY="278.0" prefHeight="25.0" prefWidth="116.0" />
+      <Label layoutX="40.0" layoutY="314.0" text="Nummer" />
+      <Label layoutX="172.0" layoutY="314.0" text="Temperatur" />
+      <Button fx:id="speichern" layoutX="321.0" layoutY="278.0" mnemonicParsing="false" onMouseClicked="#handleSpeichernButton" text="Speichern" />
+   </children>
+</AnchorPane>

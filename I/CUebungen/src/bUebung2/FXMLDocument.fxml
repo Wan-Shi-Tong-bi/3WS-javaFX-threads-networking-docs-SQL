@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="526.0" prefWidth="849.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bUebung2.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TableView fx:id="tableView1" layoutX="83.0" layoutY="63.0" prefHeight="219.0" prefWidth="385.0">
+        <columns>
+          <TableColumn fx:id="kundenNrColumn" prefWidth="64.0" text="KundenNr" />
+          <TableColumn fx:id="nameColumn" prefWidth="135.0" text="Name" />
+            <TableColumn fx:id="adresseColumn" prefWidth="185.0" text="Adresse" />
+        </columns>
+      </TableView>
+      <TableView fx:id="tableView2" layoutX="487.0" layoutY="63.0" prefHeight="219.0" prefWidth="299.0">
+        <columns>
+          <TableColumn prefWidth="298.0" text="Programm Überblick">
+               <columns>
+                <TableColumn fx:id="anzahlColumn" prefWidth="55.0" text="Anzahl" />
+                  <TableColumn fx:id="idColumn" prefWidth="243.0" text="ID" />
+               </columns></TableColumn>
+        </columns>
+      </TableView>
+      <ListView fx:id="listView" layoutX="273.0" layoutY="331.0" prefHeight="147.0" prefWidth="200.0" />
+      <Button fx:id="neueUebungButton" layoutX="499.0" layoutY="370.0" mnemonicParsing="false" onMouseClicked="#handleNeueUebungAction" text="neue Uebung" />
+      <Spinner fx:id="spinner" layoutX="499.0" layoutY="331.0" prefHeight="25.0" prefWidth="88.0" />
+      <Button fx:id="hinzufuegenButton" layoutX="83.0" layoutY="25.0" mnemonicParsing="false" onMouseClicked="#handleHinzufuegenAction" text="Hinzufuegen" />
+      <Button fx:id="aendernButton" layoutX="181.0" layoutY="25.0" mnemonicParsing="false" onMouseClicked="#handleAendernAction" text="Aendern" />
+      <Button fx:id="loeschenButton" layoutX="255.0" layoutY="25.0" mnemonicParsing="false" onMouseClicked="#handleLoeschenAction" text="Loeschen" />
+      <Label layoutX="273.0" layoutY="306.0" text="mögliche Übungen" />
+      <Label layoutX="499.0" layoutY="306.0" text="Anzahl" />
+    </children>
+</AnchorPane>

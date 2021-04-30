@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BUebung.FXMLController">
+   <children>
+      <ListView fx:id="listArzt1" layoutX="37.0" layoutY="91.0" prefHeight="200.0" prefWidth="260.0" />
+      <ListView fx:id="listArzt2" layoutX="302.0" layoutY="91.0" prefHeight="200.0" prefWidth="260.0" />
+      <Label layoutX="93.0" layoutY="41.0" text="Arzt 1 - Allgemeinmediziner" />
+      <Label layoutX="387.0" layoutY="41.0" text="Arzt 2  - Facharzt" />
+      <Label fx:id="labelArzt1" layoutX="115.0" layoutY="65.0" prefHeight="17.0" prefWidth="104.0" />
+      <Label fx:id="labelArzt2" layoutX="395.0" layoutY="65.0" prefHeight="17.0" prefWidth="115.0" />
+      <Label layoutX="256.0" layoutY="350.0" text="Empfangsdame 2" />
+      <Label layoutX="406.0" layoutY="350.0" text="Empfangsdame 3" />
+      <Label layoutX="93.0" layoutY="350.0" text="Empfangsdame 1" />
+      <Label fx:id="labelEm1" layoutX="86.0" layoutY="324.0" prefHeight="17.0" prefWidth="115.0" />
+      <Label fx:id="labelEm2" layoutX="240.0" layoutY="324.0" prefHeight="17.0" prefWidth="115.0" />
+      <Label fx:id="labelEm3" layoutX="395.0" layoutY="324.0" prefHeight="17.0" prefWidth="115.0" />
+   </children>
+</AnchorPane>
